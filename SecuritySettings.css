@@ -404,3 +404,12 @@ position: relative;
 }
 #dibu a:hover{ color: #F08503;  }
 #bottom a:hover{ color: #F08503;  }
+#b li{
+    list-style: none;
+    float: left;
+}
+#b{
+    position: absolute;
+    left: 365px;
+    top: 1545px;
+}
