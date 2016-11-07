@@ -259,3 +259,148 @@ position: relative;
     top: 20px;
     left: 120px;
 }
+#bottom{
+    position: absolute;
+    /*left: 50px;*/
+    top: 1100px;
+    height: 500px;
+    width: 100%;
+}
+
+#zuo1{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 180px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
+}
+
+#zuo2{
+    position: relative;
+    margin-top: -210px;
+    margin-left: 350px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
+}
+
+#zuo3{
+    position: relative;
+    margin-top: -210px;
+    margin-left: 520px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
+}
+
+#zuo4{
+    position: relative;
+    margin-top: -210px;
+    margin-left: 690px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
+}
+
+#zuo5{
+    position: relative;
+    margin-top: -210px;
+    margin-left: 860px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
+}
+
+#zuo6{
+    position: relative;
+    margin-top: -210px;
+    margin-left: 1030px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 240px;
+}
+#zuo1 a{
+
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+
+}
+#zuo2 a{
+
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+
+}
+#zuo3 a{
+
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+
+}
+#zuo4 a{
+
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+
+}
+#zuo5 a{
+
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+
+}
+#zuo6 a{
+
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+
+}
+.shang{
+    position: relative;
+    margin-bottom: 15px;
+    font-family: 黑体;
+    font-size: 18px;
+}
+.shang1{
+    position: relative;
+    margin-bottom: 10px;
+}
+.shang2{
+    position: relative;
+    margin-top: -15px;
+}
+.shang3{
+    position: relative;
+    margin-top: -5px;
+}
+#dibu{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 175px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 80%;
+    text-align: center;
+    font-family: 黑体;
+    font-size: 15px;
+}
+
+#dibu a{
+    text-decoration: none;
+    color: black;
+}
+#dibu a:hover{ color: #F08503;  }
+#bottom a:hover{ color: #F08503;  }
