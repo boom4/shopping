@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>个人信息</title>
-    <link rel="stylesheet" type="text/css" href="PersonalInformation.css">
+    <title>收货地址</title>
+    <link rel="stylesheet" type="text/css" href="ReceiverAddress.css">
 </head>
-<body style="margin:0px;">
+<body style="margin:0px;" >
 <div id="top">
     <nav id="nav1">
         <a href="#">注册</a>
@@ -49,72 +49,82 @@
         <span id="zhanghao">账号管理</span>
         <ul id="line">
             <li><a href="SecuritySettings.html">安全设置</a></li>
-            <li><a href="PersonalInformation.html" style="color: #F08503">个人资料</a></li>
+            <li><a href="PersonalInformation.html">个人资料</a></li>
             <li><a href="#">隐私设置</a></li>
             <li><a href="#">个人成长信息</a></li>
             <li><a href="#">支付宝绑定设置</a></li>
-            <li><a href="ReceiverAddress.html">收货地址</a></li>
+            <li><a href="ReceiverAddress.html" style="color: #F08503">收货地址</a></li>
             <li><a href="#">个人交易信息</a></li>
         </ul>
     </div>
     <div id="center2-right1">
-        <span id="gerenziliao">个人资料</span>
+        <span id="address">收货地址</span>
     </div>
     <div id="center2-right2">
-        <span id="jibenxinxi">基本信息</span>
-        <span id="gerenzhaopian">个人照片</span>
+        <div id="line1">
+            <p id="newaddress">新增收货地址</p>
+            <p id="notnull">电话号码、手机号选填一项, 其余均为必填项</p>
+        </div>
+        <div id="line2">
+            <p id="diqu">所在地区</p>
+            <select id="select1"><option>中国大陆</option></select>
+            <select id="select2"><option>填写省市区</option></select>
+        </div>
+        <div id="line3">
+            <p id="xxdz">详细地址</p>
+            <input id="input2" type="text" placeholder="建议您如实填写详细收货地址，例如街道名称，门牌号码，楼层和房间号等信息">
+        </div>
+        <div id="line4">
+            <p id="yzbm">邮政编码</p>
+            <input id="input3" type="text" placeholder="如您不清楚邮递区号，请填写000000">
+        </div>
+        <div id="line5">
+            <p id="shrxm">收货人姓名</p>
+            <input id="input4" type="text" placeholder="长度不超过25个字符">
+        </div>
+        <div id="line6">
+            <p id="sjhm">手机号码</p>
+            <select id="select3"><option>中国大陆+86</option></select>
+            <input id="input5" type="text" placeholder="电话号码、手机号码必须填一项">
+        </div>
+        <div id="line7">
+            <p id="dhhm">电话号码</p>
+            <select id="select4"><option>中国大陆+86</option></select>
+            <input id="input6" type="text" placeholder="区号">
+            <input id="input7" type="text" placeholder="电话号码">
+            <input id="input8" type="text" placeholder="分机">
+        </div>
+        <div id="line8">
+            <input id="input9" type="checkbox">
+            <p id="moren">设置为默认收货地址</p>
+        </div>
+        <div id="line9">
+            <button id="btn_save">保存</button>
+        </div>
+        <div id="line10">
+            <p id="saveaddress">已保存了1条地址，还能保存19条地址</p>
+        </div>
     </div>
     <div id="center2-right3">
-        <span id="beng4">亲爱的蹦*********4，填写真实的资料，有助于好友找到你哦。</span>
-        <span id="dqtx">当前头像</span>
-        <img src="../img/头像2.png" id="touxiang2">
-        <p id="nichengp">昵称：</p><input type="text" id="nichengi">
-        <span id="nichengxuzhi">*昵称填写须知：与淘宝业务或卖家品牌冲突的昵称，淘宝可能收回</span>
-        <ul id="zsxm">
-            <li>真实姓名：</li>
-            <li>性别：</li>
-            <li>生日：</li>
-            <li>居住地：</li>
-            <li>家乡：</li>
-        </ul>
-        <input type="text" id="zsxm2">
-        <input type="radio" id="xbm" name="a"><p id="man">男</p>
-        <input type="radio" id="xbw" name="a"><p id="woman">女</p>
-        <ul id="nyr">
-            <li><select class="select">
-                <option>年</option>
-            </select>
-                <select class="select">
-                    <option>月</option>
-                </select>
-                <select class="select">
-                    <option>日</option>
-                </select>
-            </li>
-            <li>
-                <select class="select">
-                    <option>省</option>
-                </select>
-                <select class="select">
-                    <option>市</option>
-                </select>
-                <select class="select">
-                    <option>县</option>
-                </select>
-            </li>
-            <li>
-                <select class="select">
-                    <option>省</option>
-                </select>
-                <select class="select">
-                    <option>市</option>
-                </select>
-                <select class="select">
-                    <option>县</option>
-                </select>
-            </li>
-        </ul>
-        <span id="gift">生日会有礼物哦</span>
+        <div id="center2-right3-top1">
+            <ul id="message">
+                <li>收货人</li>
+                <li>所在地区</li>
+                <li>详细地址</li>
+                <li>邮编</li>
+                <li>电话/手机</li>
+                <li>操作</li>
+            </ul>
+        </div>
+        <div id="center2-right3-top2">
+            <p id="p1" class="center2-right3-top2">展恩旺</p>
+            <p id="p2" class="center2-right3-top2"> 黑龙江省 哈尔滨市 南岗<br>区 荣市街道 </p>
+            <p id="p3" class="center2-right3-top2">建设街45号2单元302</p>
+            <p id="p4" class="center2-right3-top2">150006</p>
+            <p id="p5" class="center2-right3-top2">1*********5</p>
+            <p id="p6" class="center2-right3-top2"><a href="ReceiverAddress.html">修改|删除</a></p>
+            <button id="btn_moren">默认地址</button>
+        </div>
     </div>
 </div>
 <div id="center3">
