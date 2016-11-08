@@ -357,9 +357,27 @@ a:active{color: #F08503}
     top: 0px;
 }
 #huafei{
+    background-image: url("../img/话费.png");
     position: absolute;
     left: 20px;
     top: 105px;
+    width: 370px;
+    height: 88px;
+}
+#huafei a{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+#huafei a:hover{
+    text-decoration: underline;
+    color: #F08503;
+}
+#p{
+    position: absolute;
+    left: 91px;
+    top: -12px;
 }
 #right{
     font-family: 微软雅黑;

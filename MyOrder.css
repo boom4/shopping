@@ -233,9 +233,27 @@
     top: 0px;
 }
 #huafei{
+    background-image: url("../img/话费.png");
     position: absolute;
     left: 20px;
     top: 105px;
+    width: 370px;
+    height: 88px;
+}
+#huafei a{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+#huafei a:hover{
+    text-decoration: underline;
+    color: #F08503;
+}
+#p{
+    position: absolute;
+    left: 91px;
+    top: -12px;
 }
 #right{
     font-family: 微软雅黑;
@@ -249,14 +267,14 @@
     margin-right: 23px;
     float: left;
 }
-#smallkuang2{
+#smallkuang1{
     width: 944px;
     height: 194px;
     border: solid;
     border-width: thin;
     border-color: #B5B5B5;
     position: absolute;
-    top: 590px;
+    top: 595px;
     left: 325px;
 }
 #yinying3{
@@ -324,9 +342,27 @@
     top: 0px;
 }
 #huafei1{
+    background-image: url("../img/话费.png");
     position: absolute;
     left: 20px;
     top: 105px;
+    width: 370px;
+    height: 88px;
+}
+#huafei1 a{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+#huafei1 a:hover{
+    text-decoration: underline;
+    color: #F08503;
+}
+#p1{
+    position: absolute;
+    left: 91px;
+    top: -12px;
 }
 #right1{
     font-family: 微软雅黑;
@@ -604,5 +640,5 @@
 #b{
     position: absolute;
     left: 365px;
-    top: 2035px;
+    top: 2015px;
 }
