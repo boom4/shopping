@@ -14,6 +14,8 @@
 }
 #nav1 a{color: black}
 #nav2 a{color: black}
+#nav1 a:hover{ color:#F08503}
+#nav2 a:hover{ color:#F08503}
 #nav1{
     position: absolute;
     left: 190px;
@@ -100,3 +102,4 @@
     margin-right: 15px;
 }
 #remensousuo a{ color:gray}
+#remensousuo a:hover{ color:#F08503}

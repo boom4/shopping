@@ -14,8 +14,8 @@
 }
 #nav1 a{color: black}
 #nav2 a{color: black}
-#nav1 a:hover{color: #F08503}
-#nav2 a:hover{color: #F08503}
+#nav1 a:hover{ color:#F08503}
+#nav2 a:hover{ color:#F08503}
 #nav1{
     position: absolute;
     left: 190px;
@@ -102,62 +102,104 @@
     margin-right: 15px;
 }
 #remensousuo a{ color:gray}
-#remensousuo a:hover{color: #F08503}
-#btn_collect{
+#remensousuo a:hover{ color:#F08503}
+#title li{
+    list-style: none;
+    margin-top: 10px;
+}
+#title{
     font-family: 微软雅黑;
-    font-size: 14px;
-    color: #FFF;
-    background-color: #F08503;
-    cursor: pointer;
-    height: 25px;
-    border: none;
-    width: 68px;
+    font-size: 30px;
     position: absolute;
-    left: 162px;
-    top: 295px;
+    top: 240px;
+    left: 120px;
 }
-#tu1{
+#guanzhu{
     position: absolute;
-    left: 162px;
-    top: 355px;
+    top: 285px;
+    left: 875px;
 }
-.money1{
+#dianpu2{
+    position: absolute;
+    top: 480px;
+    left: 0px;
+}
+#center4-top li{
+    list-style: none;
+    line-height: 29px;
+}
+#center4-top{
+    font-family: 微软雅黑;
+    font-size: 18px;
+    position: absolute;
+    top: 920px;
+    left: 100px;
+}
+#center5-line1{
+    position: absolute;
+    top: 1000px;
+    left: 140px;
+    width:1010px ;
+    height:380px ;
+}
+.goods{
+    float: left;
+}
+.goods a{
+    text-decoration: none;
+}
+.goods a{color: black}
+.goods a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.money{
     display: inline-block;
     color: red;
     font-family: 微软雅黑;
-    font-size: 18px;
+    font-size: 36px;
 }
-.money2{
-    text-decoration: line-through;
+.p1{
     font-family: 微软雅黑;
     font-size: 14px;
 }
-#tu2{
-    position: absolute;
-    left: 372px;
-    top: 355px;
+.p2{
+    color: red;
+    font-family: 微软雅黑;
+    font-size: 14px;
 }
-#tu3{
-    position: absolute;
-    left: 582px;
-    top: 355px;
+.p2 a{color: red}
+.car{
+    position: relative;
+    left: 60px;
 }
-#tu4{
+#center5-line2{
     position: absolute;
-    left: 792px;
-    top: 355px;
+    top: 1400px;
+    left: 140px;
+    width:1010px ;
+    height:380px ;
 }
-#tu5{
+#center5-line3{
     position: absolute;
-    left: 1002px;
-    top: 355px;
+    top: 1800px;
+    left: 140px;
+    width:1010px ;
+    height:380px ;
+}
+#center5-line4{
+    position: absolute;
+    top: 2200px;
+    left: 140px;
+    width:1010px ;
+    height:380px ;
 }
 #center3{
     width: 100%;
     height: 110px;
     background-color: #F5F5F5;
     position: absolute;
-    top: 690px;
+    top: 2645px;
 }
 #shkd li{
     float: left;
@@ -172,7 +214,7 @@
 #bottom{
     position: absolute;
     /*left: 50px;*/
-    top: 835px;
+    top: 2775px;
     height: 500px;
     width: 100%;
 }
@@ -321,13 +363,5 @@
 #b{
     position: absolute;
     left: 365px;
-    top: 1285px;
-}
-.goods a{
-    text-decoration: none;
-}
-.goods a{color: black}
-.goods a:hover{
-    color: #F08503;
-    text-decoration: underline;
+    top: 3200px;
 }
