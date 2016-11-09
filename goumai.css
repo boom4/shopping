@@ -1,35 +1,44 @@
-#top{
+#top {
     width: 100%;
     height: 40px;
     font-size: x-small;
     background-color: #e1e8e5;
 }
-#nav1 a{
-   
-    text-decoration: none;
 
+#nav1 a {
+    text-decoration: none;
 }
 
-#nav2 a{
+#nav2 a {
     margin-right: 20px;
     text-decoration: none;
 }
-#nav1 a{color: black}
-#nav2 a{color: black}
-#nav1{
+
+#nav1 a {
+    color: black
+}
+
+#nav2 a {
+    color: black
+}
+
+#nav1 {
     position: absolute;
     left: 190px;
-    top:10px;
+    top: 10px;
 }
-#nav2{
+
+#nav2 {
     position: absolute;
     left: 670px;
-    top:10px;
+    top: 10px;
 }
-#top a:hover{
+
+#top a:hover {
     background-color: yellow;
 }
-#tou{
+
+#tou {
     position: absolute;
     top: 100px;
     left: 150px;
@@ -37,33 +46,37 @@
     height: 165px;
     /*border: 1px solid black;*/
 }
-#legou{
+
+#legou {
     position: absolute;
     left: 20px;
 }
-#que{
-        position: absolute;
+
+#que {
+    position: absolute;
     top: 65px;
     left: 150px
 }
 
-#que1{
-     position: absolute;
+#que1 {
+    position: absolute;
     top: 140px;
     left: 10px;
     text-decoration: none;
     font-size: 15px;
     color: black;
 }
-#que2{
-     position: absolute;
+
+#que2 {
+    position: absolute;
     top: 140px;
     left: 900px;
     text-decoration: none;
     font-size: 15px;
     color: blue;
 }
-#hong{
+
+#hong {
     position: absolute;
     top: 300px;
     left: 150px;
@@ -74,15 +87,16 @@
     font-size: 15px;
 }
 
-#xiu{
-     position: absolute;
+#xiu {
+    position: absolute;
     top: 10px;
     left: 900px;
     text-decoration: none;
     font-size: 15px;
     color: blue;
 }
-#xin{
+
+#xin {
     position: absolute;
     top: 340px;
     left: 300px;
@@ -93,7 +107,8 @@
     font-size: 15px;
     border-left: none;
 }
-#lv{
+
+#lv {
     position: absolute;
     top: 340px;
     left: 260px;
@@ -104,19 +119,22 @@
     font-size: 15px;
     border-right: none;
 }
-#lvtu{
+
+#lvtu {
     position: absolute;
     top: 5px;
     left: 5px;
 }
-#ding{
+
+#ding {
     position: absolute;
     top: 410px;
     left: 145px;
     font-size: 15px;
 }
-#xinxi{
-   position: absolute;
+
+#xinxi {
+    position: absolute;
     top: 440px;
     left: 145px;
     width: 1000px;
@@ -127,7 +145,6 @@
     border-top: none;
     border-right: none;
     border-left: none;
-    
 }
 
 .hh {
@@ -135,7 +152,6 @@
     overflow: hidden;
     padding: 0px;
     cursor: pointer;
-    
 }
 
 .daohang:link,
@@ -162,28 +178,27 @@
     background-color: #eeeeee;
 }
 
-
-
 .hh li {
     float: left;
     color: white;
 }
 
-#bao{
-   position: absolute;
+#bao {
+    position: absolute;
     top: 470px;
     left: 145px;
     width: 1000px;
     height: 450px;
     /*border: 1px solid black;*/
-    
 }
-#bao1{
+
+#bao1 {
     position: absolute;
     top: 15px;
     left: 50px;
 }
-#hongdou{
+
+#hongdou {
     text-decoration: none;
     color: black;
     position: absolute;
@@ -192,43 +207,46 @@
     font-size: 15px;
 }
 
-#bao2{
+#bao2 {
     position: absolute;
     top: 40px;
     left: 120px;
 }
-#fahuo{
+
+#fahuo {
     position: absolute;
     top: 60px;
     left: 120px;
     font-size: 10px;
 }
 
-#fahuo1{
+#fahuo1 {
     position: absolute;
     top: 80px;
     left: 120px;
     font-size: 10px;
 }
-#shuxing{
+
+#shuxing {
     position: absolute;
     top: 15px;
     left: 235px;
     font-size: 15px;
 }
-#bao3{
+
+#bao3 {
     position: absolute;
     top: 15px;
     left: 385px;
-   
 }
-#shang1{
+
+#shang1 {
     position: absolute;
     top: 15px;
     left: 525px;
-   
 }
-#shuliang{
+
+#shuliang {
     position: absolute;
     top: 15px;
     left: 560px;
@@ -236,110 +254,117 @@
     height: 20px;
     border: 1px solid black;
 }
-#shang2{
-        position: absolute;
+
+#shang2 {
+    position: absolute;
     top: 16px;
     left: 600px;
-   
 }
 
-#youhui{
-    
+#youhui {
     position: absolute;
     top: 15px;
     left: 710px;
     font-size: 15px;
 }
-#bao4{
+
+#bao4 {
     position: absolute;
     top: 15px;
     left: 875px;
 }
-#liu{
-        position: absolute;
+
+#liu {
+    position: absolute;
     top: 115px;
     left: 40px;
     font-size: 14px;
 }
-#xiang{
+
+#xiang {
     position: absolute;
     top: 115px;
     left: 125px;
     font-size: 14px;
     border: 1px solid black;
     width: 350px;
+    text-align: left;
+    height: 20px;
 }
-#yunsong{
-        position: absolute;
+
+#yunsong {
+    position: absolute;
     top: 115px;
     left: 560px;
     font-size: 14px;
-
 }
-#yunsong1{
-        position: absolute;
+
+#yunsong1 {
+    position: absolute;
     top: 140px;
     left: 560px;
     font-size: 14px;
-
 }
-#yunsong2{
-        position: absolute;
+
+#yunsong2 {
+    position: absolute;
     top: 165px;
     left: 560px;
     font-size: 14px;
-
 }
-#yunsong3{
+
+#yunsong3 {
     position: absolute;
     top: 200px;
     left: 795px;
     font-size: 14px;
-
 }
-#bao5{
-   position: absolute;
-    top: 203px;
+
+#bao5 {
+    position: absolute;
+    top: 198px;
     left: 920px;
-    
-
+    color: #ff662e;
 }
-#shi{
-        position: absolute;
+
+#shi {
+    position: absolute;
     top: 220px;
     left: 555px;
     width: 425px;
     height: 140px;
     border: 1px solid #ff662e;
 }
-#shi1{
+
+#shi1 {
     position: absolute;
     top: 30px;
     left: 15px;
     font-size: 13px;
-
 }
-#bao6{
-       position: absolute;
-    top: 32px;
+
+#bao6 {
+    position: absolute;
+    top: 27px;
     left: 65px;
-
+    color: red;
 }
-#shi2{
+
+#shi2 {
     position: absolute;
     top: 55px;
     left: 15px;
     font-size: 13px;
-
 }
-#shi3{
+
+#shi3 {
     position: absolute;
     top: 80px;
     left: 15px;
     font-size: 13px;
-
 }
-#tijiao{
+
+#tijiao {
     position: absolute;
     top: 363px;
     left: 802px;
@@ -349,173 +374,176 @@
     border: none;
     color: white;
     font-size: 25px;
-
 }
-#shi4{
+
+#shi4 {
     position: absolute;
     top: 420px;
     left: 580px;
     font-size: 14px;
-    
 }
-#heng{
+
+#heng {
     position: absolute;
-top: 950px;
-
+    top: 950px;
 }
-#dida{
+
+#dida {
     position: absolute;
-top: 1050px;
-/*border: 1px solid;*/
-height: 500px;
-width: 100%;
+    top: 1050px;
+    /*border: 1px solid;*/
+    height: 500px;
+    width: 100%;
 }
 
-#zuo1{
+#zuo1 {
     position: relative;
-margin-top: 30px;
-margin-left: 180px;
-/*border: 1px solid;*/
-height: 210px;
-width: 150px;
+    margin-top: 30px;
+    margin-left: 180px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
 }
 
-#zuo2{
+#zuo2 {
     position: relative;
-margin-top: -210px;
-margin-left: 350px;
-/*border: 1px solid;*/
-height: 210px;
-width: 150px;
+    margin-top: -210px;
+    margin-left: 350px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
 }
 
-#zuo3{
+#zuo3 {
     position: relative;
-margin-top: -210px;
-margin-left: 520px;
-/*border: 1px solid;*/
-height: 210px;
-width: 150px;
+    margin-top: -210px;
+    margin-left: 520px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
 }
 
-#zuo4{
+#zuo4 {
     position: relative;
-margin-top: -210px;
-margin-left: 690px;
-/*border: 1px solid;*/
-height: 210px;
-width: 150px;
+    margin-top: -210px;
+    margin-left: 690px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
 }
 
-#zuo5{
+#zuo5 {
     position: relative;
-margin-top: -210px;
-margin-left: 860px;
-/*border: 1px solid;*/
-height: 210px;
-width: 150px;
+    margin-top: -210px;
+    margin-left: 860px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
 }
 
-#zuo6{
+#zuo6 {
     position: relative;
-margin-top: -210px;
-margin-left: 1030px;
-/*border: 1px solid;*/
-height: 210px;
-width: 240px;
+    margin-top: -210px;
+    margin-left: 1030px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 240px;
 }
-#zuo1 a{
 
+#zuo1 a {
     text-decoration: none;
     font-family: 黑体;
     font-size: 15px;
     color: black;
-
 }
-#zuo2 a{
 
+#zuo2 a {
     text-decoration: none;
     font-family: 黑体;
     font-size: 15px;
     color: black;
-
 }
-#zuo3 a{
 
+#zuo3 a {
     text-decoration: none;
     font-family: 黑体;
     font-size: 15px;
     color: black;
-
 }
-#zuo4 a{
 
+#zuo4 a {
     text-decoration: none;
     font-family: 黑体;
     font-size: 15px;
     color: black;
-
 }
-#zuo5 a{
 
+#zuo5 a {
     text-decoration: none;
     font-family: 黑体;
     font-size: 15px;
     color: black;
-
 }
-#zuo6 a{
 
+#zuo6 a {
     text-decoration: none;
     font-family: 黑体;
     font-size: 15px;
     color: black;
-
 }
-.shang{
+
+.shang {
     position: relative;
     margin-bottom: 15px;
 }
-.shang1{
+
+.shang1 {
     position: relative;
     margin-bottom: 10px;
 }
-.shang2{
+
+.shang2 {
     position: relative;
     margin-top: -15px;
 }
-.shang3{
+
+.shang3 {
     position: relative;
     margin-top: -5px;
 }
-#dibu{
+
+#dibu {
     position: relative;
-margin-top: 30px;
-margin-left: 175px;
-/*border: 1px solid;*/
-height: 210px;
-width: 80%;
-text-align: center;
-font-family: 黑体;
-font-size: 15px;
+    margin-top: 30px;
+    margin-left: 175px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 80%;
+    text-align: center;
+    font-family: 黑体;
+    font-size: 15px;
 }
 
-#dibu a{
+#dibu a {
     text-decoration: none;
     color: black;
 }
-#dibu a:hover{
+
+#dibu a:hover {
     color: blue;
 }
-#dida a:hover{
+
+#dida a:hover {
     color: blue;
 }
-#b li{
+
+#b li {
     list-style: none;
     float: left;
     margin-left: 20px;
 }
-#b{
+
+#b {
     position: absolute;
     left: 300px;
     top: 1500px;
