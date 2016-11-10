@@ -24,6 +24,7 @@ shang1.onclick = function() {
 
 }
 
+
 shang2.onclick = function() {
 
     qian2.innerHTML = parseInt(qian2.innerHTML) + parseInt(qian1.innerHTML);
