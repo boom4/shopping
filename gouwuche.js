@@ -143,18 +143,18 @@ check.onclick = function() {
         for (var i = 0; i < kuangname.length; i++) {
             kuangname[i].checked = true;
             qian5.innerHTML = (parseFloat(qian2.innerHTML) + parseFloat(qian4.innerHTML)).toFixed(1);
-    wuzhong3.innerHTML = parseFloat(wuzhong1.innerHTML) + parseFloat(wuzhong2.innerHTML);
+            wuzhong3.innerHTML = parseFloat(wuzhong1.innerHTML) + parseFloat(wuzhong2.innerHTML);
         }
 
     } else {
         for (var i = 0; i < kuangname.length; i++) {
             kuangname[i].checked = false;
             qian5.innerHTML = 0;
-        wuzhong3.innerHTML = 0;
+            wuzhong3.innerHTML = 0;
         }
 
     }
-    
+
 }
 check3.onclick = function() {
     if (check3.checked && check4.checked) {

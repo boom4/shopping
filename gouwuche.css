@@ -21,7 +21,8 @@
 #nav2 a {
     color: black
 }
-#nav2 a:hover{
+
+#nav2 a:hover {
     color: red;
 }
 
@@ -587,6 +588,7 @@
     left: 300px;
     top: 1250px;
 }
-img{
-	cursor: pointer;
+
+img {
+    cursor: pointer;
 }
