@@ -1,0 +1,895 @@
+#top{
+    width: 100%;
+    height: 30px;
+    font-size: x-small;
+    background-color: #e1e8e5;
+}
+#nav1 a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+#nav2 a{
+    margin-right: 20px;
+    text-decoration: none;
+}
+#nav1 a{color: black}
+#nav2 a{color: black}
+#nav1 a:hover{ color:#F08503}
+#nav2 a:hover{ color:#F08503}
+#nav1{
+    position: absolute;
+    left: 190px;
+    top:0px;
+}
+#nav2{
+    position: absolute;
+    left: 725px;
+    top:0px;
+}
+#center1{
+    width: 100%;
+    height: 220px;
+    border: solid;
+    border-color: white;
+}
+#legouwu{
+    position: absolute;
+    left: 155px;
+    top: 77px;
+}
+#erweima{
+    position: absolute;
+    left: 1060px;
+    top: 58px;
+}
+#input{
+    padding: 6px 0;
+    height: 22px;
+    width: 472px;
+    border: solid;
+    border-color: #F08503;
+    position: absolute;
+    left: 363px;
+    top: 137px;
+}
+#btn_search{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #F08503;
+    cursor: pointer;
+    height: 40px;
+    border: none;
+    width: 75px;
+    position: absolute;
+    left: 841px;
+    top: 137px;
+}
+#shangpin{
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+    background-color: #F08503;
+    cursor: pointer;
+    height: 30px;
+    border: none;
+    width: 55px;
+    position: absolute;
+    left: 363px;
+    top: 108px;
+}
+#dianpu{
+    font-size: 14px;
+    font-weight: 700;
+    color: #F08503;
+    background-color: #e1e8e5;
+    cursor: pointer;
+    height: 30px;
+    border: none;
+    width: 55px;
+    position: absolute;
+    left: 418px;
+    top: 108px;
+}
+#remensousuo{
+    position: absolute;
+    left: 365px;
+    top: 186px;
+}
+#remensousuo a{
+    text-decoration: none;
+    font-size: x-small;
+    margin-right: 15px;
+}
+#remensousuo a{ color:gray}
+#remensousuo a:hover{ color:#F08503}
+#toptu{
+    position: absolute;
+    top: 300px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+#center2{
+    width: 100%;
+    height: 60px;
+    border: solid;
+    border-color: white;
+    position: absolute;
+    top: 420px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+#center4{
+    width: 100%;
+    height: 548px;
+    border: solid;
+    border-color: white;
+    position: absolute;
+    top: 480px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+#fsny{
+    position: absolute;
+    left: 180px;
+}
+#nav3 a{
+    color: black;
+    text-decoration: none;
+}
+#nav3 a:hover{color: #F08503}
+#nav3{
+    position: absolute;
+    top: 11px;
+    left: 810px;
+}
+#spdt{
+    position: absolute;
+    left: 180px;
+}
+.btn{
+    font-family: 微软雅黑;
+    font-size: 35.95px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    height: 58px;
+    border: 1px #999999 solid;
+    width: 30px;
+    padding: 1px;
+}
+#center4-left-bottom{
+    position: absolute;
+    top: 475px;
+    left: 180px;
+}
+#line1{
+    position: absolute;
+    left: 570px;
+}
+#line2{
+    position: absolute;
+    left: 570px;
+    top: 30px;
+    color: #F08503;
+}
+#line3{
+    position: absolute;
+    left: 570px;
+    top: 70px;
+}
+#line4{
+    position: absolute;
+    left: 570px;
+    top: 110px;
+}
+#line4-1{
+    font-size: 24px;
+    color: red;
+    position: absolute;
+    left: 615px;
+    top: 100px;
+}
+#line5{
+    position: absolute;
+    left: 570px;
+    top: 150px;
+}
+#line5-1{
+    width: 50px;
+    height: 16px;
+    background-color: #F08503;
+    position: absolute;
+    left: 615px;
+    top: 150px;
+}
+#line5-2{
+    position: absolute;
+    left: 622px;
+    top: 148px;
+    color: white;
+}
+#line5-3{
+    position: absolute;
+    left: 666px;
+    top: 148px;
+}
+#line6{
+    position: absolute;
+    left: 570px;
+    top: 190px;
+}
+#line6-1{
+    position: absolute;
+    left: 615px;
+    top: 190px;
+}
+#line7{
+    position: absolute;
+    left: 615px;
+    top: 230px;
+}
+#line7-1 a{
+    color: black;
+    text-decoration: none;
+}
+#line7-1 a:hover{color: #F08503}
+#line7-1{
+    position: absolute;
+    left: 1000px;
+    top: 225px;
+}
+#line8{
+    position: absolute;
+    left: 570px;
+    top: 300px;
+}
+#xuanze{
+    position: absolute;
+    left: 617px;
+    top: 285px;
+}
+#line9{
+    position: absolute;
+    left: 570px;
+    top: 370px;
+}
+.chima{
+    border-left: none;
+    cursor: pointer;
+    border: solid;
+    border-width: thin;
+    border-color: #B5B5B5;
+    background-color: white;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    padding: 5px;
+}
+.chima1{
+    border-left: none;
+    cursor: pointer;
+    border: dashed;
+    border-width: thin;
+    border-color: #B5B5B5;
+    background-color: white;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    padding: 5px;
+}
+#chima{
+    position: absolute;
+    left: 617px;
+    top: 366px;
+}
+#line10{
+    border-radius: 10px;
+    background-color: #422C00;
+    position: absolute;
+    left: 617px;
+    top: 420px;
+    width: 116px;
+    height: 41px;
+    color: #EEEEEE;
+    border: none;
+}
+#line10-1{
+    border-radius: 10px;
+    background-color: #F08503;
+    position: absolute;
+    left: 750px;
+    top: 420px;
+    width: 116px;
+    height: 41px;
+    color: #EEEEEE;
+    border: none;
+}
+#line10-2{
+    width: 137px;
+    height: 38px;
+    border-radius: 6px;
+    position: absolute;
+    left: 887px;
+    top: 420px;
+}
+#ewm{
+    position: absolute;
+    left: 898px;
+    top: 427px
+}
+#line11{
+    position: absolute;
+    left: 570px;
+    top: 490px;
+}
+#line12{
+    position: absolute;
+    left: 570px;
+    top: 530px;
+}
+#line12-1{
+    position: absolute;
+    left: 650px;
+    top: 530px;
+}
+#left1{
+    width: 190px;
+    height: 300px;
+    border: 1px #F08503 solid;
+    position: absolute;
+    left: 180px;
+    top: 1080px;
+}
+#left2{
+    width: 190px;
+    height: 230px;
+    border: 1px #F08503 solid;
+    position: absolute;
+    left: 180px;
+    top: 1410px;
+}
+#left3{
+    width: 190px;
+    height: 780px;
+    border: 1px #F08503 solid;
+    position: absolute;
+    left: 180px;
+    top: 1670px;
+}
+#left4{
+    width: 190px;
+    height: 2470px;
+    border: 1px #F08503 solid;
+    position: absolute;
+    left: 180px;
+    top: 2480px;
+}
+#left5{
+    width: 190px;
+    height: 280px;
+    border: 1px #F08503 solid;
+    position: absolute;
+    left: 180px;
+    top: 4980px;
+}
+#left6{
+    width: 190px;
+    height: 280px;
+    border: 1px #F08503 solid;
+    position: absolute;
+    left: 180px;
+    top: 5290px;
+}
+#right1{
+    width: 800px;
+    height: 30px;
+    border: 1px #F08503 solid;
+    position: absolute;
+    left: 375px;
+    top: 1080px;
+    font-family: 宋体;
+    font-size: 14px;
+}
+#jieshao{
+    background-color: #F1D7B9;
+    height: 30px;
+    width: 100px;
+    color: #F08503;
+    border-right: 1px #F08503 solid;
+}
+#jieshao1{
+    position: absolute;
+    left: 19px;
+    top: 6px;
+}
+#nav4 a{
+    color: black;
+    text-decoration: none;
+    margin-right: 20px;
+}
+#nav4 a:hover{color: #F08503}
+#nav4{
+    position: absolute;
+    top: 6px;
+    left: 130px;
+}
+#right2{
+    border: 1px white solid;
+    position: absolute;
+    left: 375px;
+    top: 1135px;
+    width: 800px;
+    height: 17500px;
+}
+#tu3{
+    position: absolute;
+    left: 276px;
+    top:40px;
+}
+#tu4{
+    position: absolute;
+    left: 518px;
+    top:40px;
+}
+#bottom0{
+    border: 1px #B0B0B0 solid;
+    position: absolute;
+    left: 375px;
+    top: 18093px;
+    width: 804px;
+    height: 303px;
+}
+#hr{
+    font-family: 宋体;
+    font-size: 14px;
+}
+#tu47{
+    position: absolute;
+    left: 60px;
+    top: 35px;
+}
+#tu48{
+    position: absolute;
+    left: 240px;
+    top: 35px;
+}
+#tu49{
+    position: absolute;
+    left: 420px;
+    top: 35px;
+}
+#tu50{
+    position: absolute;
+    left: 600px;
+    top: 35px;
+}
+#a47{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    float: left;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+#m47{
+    position: absolute;
+    left: 110px;
+    top: 60px;
+}
+#a48{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    float: left;
+    position: absolute;
+    left: 235px;
+    top: 200px;
+}
+#m48{
+    position: absolute;
+    left: 110px;
+    top: 60px;
+}
+#a49{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    float: left;
+    position: absolute;
+    left: 420px;
+    top: 200px;
+}
+#m49{
+    position: absolute;
+    left: 110px;
+    top: 60px;
+}
+#a50{
+    font-family: 微软雅黑;
+    font-size: 14px;
+    position: absolute;
+    left: 605px;
+    top: 200px;
+}
+#m50{
+    position: absolute;
+    left: 110px;
+    top: 60px;
+}
+.money{
+    font-family: 微软雅黑;
+    font-size: 16px;
+    color: red;
+}
+.tu a{
+    text-decoration: none;
+    color: black;
+}
+.tu a:hover{
+    color: #F08503;
+    text-decoration: underline;
+}
+#center3{
+    width: 100%;
+    height: 110px;
+    background-color: #F5F5F5;
+    position: absolute;
+    top: 18450px;
+}
+#shkd li{
+    float: left;
+    list-style: none;
+    margin-right: 100px;
+}
+#shkd{
+    position: absolute;
+    top: 20px;
+    left: 120px;
+}
+#bottom{
+    position: absolute;
+    /*left: 50px;*/
+    top: 18600px;
+    height: 500px;
+    width: 100%;
+}
+
+#zuo1{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 180px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
+}
+
+#zuo2{
+    position: relative;
+    margin-top: -210px;
+    margin-left: 350px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
+}
+
+#zuo3{
+    position: relative;
+    margin-top: -210px;
+    margin-left: 520px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
+}
+
+#zuo4{
+    position: relative;
+    margin-top: -210px;
+    margin-left: 690px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
+}
+
+#zuo5{
+    position: relative;
+    margin-top: -210px;
+    margin-left: 860px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
+}
+
+#zuo6{
+    position: relative;
+    margin-top: -210px;
+    margin-left: 1030px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 240px;
+}
+#zuo1 a{
+
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+
+}
+#zuo2 a{
+
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+
+}
+#zuo3 a{
+
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+
+}
+#zuo4 a{
+
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+
+}
+#zuo5 a{
+
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+
+}
+#zuo6 a{
+
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+
+}
+.shang{
+    position: relative;
+    margin-bottom: 15px;
+    font-family: 黑体;
+    font-size: 18px;
+}
+.shang1{
+    position: relative;
+    margin-bottom: 10px;
+}
+.shang2{
+    position: relative;
+    margin-top: -15px;
+}
+.shang3{
+    position: relative;
+    margin-top: -5px;
+}
+#dibu{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 175px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 80%;
+    text-align: center;
+    font-family: 黑体;
+    font-size: 15px;
+}
+
+#dibu a{
+    text-decoration: none;
+    color: black;
+}
+#dibu a:hover{ color: #F08503;  }
+#bottom a:hover{ color: #F08503;  }
+#b li{
+    list-style: none;
+    float: left;
+}
+#b{
+    position: absolute;
+    left: 365px;
+    top: 19060px;
+}
+#left6{
+    font-family: 宋体;
+    font-size: 14px;
+}
+#borderleft6{
+    width: 190px;
+    height: 20px;
+    border-bottom: 1px #F08503 solid;
+}
+.pinpai a{
+    text-decoration: none;
+    color: black;
+}
+.pinpai a:hover{
+    color: #F08503;
+    text-decoration: underline;
+}
+.pinpai li{
+    list-style: none;
+    margin-top: 8px;
+}
+#pinpail{
+    position: absolute;
+    left: -30px;
+    top: 10px;
+}
+#pinpair{
+    position: absolute;
+    left: 65px;
+    top: 10px;
+}
+#borderleft5{
+    width: 190px;
+    height: 20px;
+    border-bottom: 1px #F08503 solid;
+}
+
+#fenleil{
+    position: absolute;
+    left: -30px;
+    top: 10px;
+}
+#fenleir{
+    position: absolute;
+    left: 65px;
+    top: 10px;
+}
+#left5{
+    font-family: 宋体;
+    font-size: 14px;
+}
+#borderleft4{
+    width: 190px;
+    height: 20px;
+    border-bottom: 1px #F08503 solid;
+}
+.t51{
+    position: relative;
+    left: 10px;
+}
+.t51 a{
+    text-decoration: none;
+    color: #422C00;
+}
+.t51 a:hover{
+    color: #F08503;
+    text-decoration: underline;
+}
+#left4,#left3,#left2,#left1{
+    font-family: 微软雅黑;
+    font-size: 14px;
+}
+#borderleft3{
+    width: 190px;
+    height: 20px;
+    border-bottom: 1px #F08503 solid;
+}
+#borderleft2{
+    width: 190px;
+    height: 20px;
+    border-bottom: 1px #F08503 solid;
+}
+#borderleft1{
+    width: 190px;
+    height: 20px;
+    border-bottom: 1px #F08503 solid;
+}
+#gjc li{
+    list-style: none;
+    margin-top: 8px;
+}
+#gjc{
+    position: absolute;
+    left: -30px;
+    top: 5px;
+}
+#i1{
+    width: 112px;
+    height: 20px;
+    border:1px #F08503 solid;
+    position: absolute;
+    top: 25px;
+    left: 68px;
+}
+#i2{
+     width: 50px;
+     height: 20px;
+     border:1px #F08503 solid;
+     position: absolute;
+     top: 55px;
+     left: 68px;
+ }
+#i3{
+    width: 50px;
+    height: 20px;
+    border:1px #F08503 solid;
+    position: absolute;
+    top: 55px;
+    left: 130px;
+}
+#jian{
+    position: absolute;
+    left:122px;
+    top: 43px;
+}
+#btn{
+    border: none;
+    background-color: #F08503;
+    width: 100px;
+    height: 25px;
+    color: white;
+    position: absolute;
+    left: 68px;
+    top: 90px;
+}
+#remen li{
+    list-style: none;
+    margin-top: 5px;
+}
+#remen{
+    position: absolute;
+    left: -30px;
+    top: 123px;
+}
+#sj li{
+    margin-top: 10px;
+    list-style: none;
+}
+#sj{
+    position: absolute;
+    left: -30px;
+    top: 12px;
+}
+#sp li{
+    float: left;
+    list-style: none;
+    margin-right: 25px;
+}
+#sp{
+    position: absolute;
+    left: -30px;
+    top: 162px;
+}
+#xs li{
+    float: left;
+    list-style: none;
+    margin-right: 25px;
+    color: #F08503;
+}
+#xs{
+    position: absolute;
+    left: -30px;
+    top: 192px;
+}
+#j{
+    background-color: #F1D7B9;
+    width: 79px;
+    height: 28px;
+    color: #F08503;
+    border: 1px #F08503 solid;
+    position: absolute;
+    left: 11px;
+    top: 245px;
+}
+#s{
+    background-color: white;
+    width: 79px;
+    height: 28px;
+    color: black;
+    border: 1px #F1D7B9 solid;
+    position: absolute;
+    left: 101px;
+    top: 245px;
+}
