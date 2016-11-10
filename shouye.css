@@ -1,8 +1,16 @@
+img {
+    cursor: pointer;
+}
+
 #top {
     width: 100%;
     height: 30px;
     font-size: x-small;
     background-color: #e1e8e5;
+}
+
+#top a:hover {
+    color: red;
 }
 
 #nav1 a {
@@ -122,6 +130,22 @@
 #remensousuo a {
     color: gray
 }
+
+#remensousuo a:hover {
+    color: red
+}
+
+#yin {
+    position: absolute;
+    top: 340px;
+    left: 150px;
+    width: 202px;
+    height: 400px;
+    /*border: 1px solid black;*/
+    z-index: 1;
+    display: none;
+}
+
 .d {
     height: 36px;
     position: absolute;
@@ -134,6 +158,42 @@
     padding: 0px;
     cursor: pointer;
     margin-left: 150px;
+}
+
+#yin ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+    background-color: white;
+}
+
+#yin li {
+    display: block;
+    width: 200px;
+    height: 20px;
+    /* font-weight: bold; */
+    color: white;
+    background-color: #F08503;
+    text-align: left;
+    /* padding: 11px; */
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 3px solid #F08503;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 2px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+#yin li:hover,
+#yin li:active {
+    background-color: white;
+    color: black;
+    border: 3px solid #cb6f03;
 }
 
 .daohang:link,
@@ -157,7 +217,8 @@
 
 .daohang:hover,
 .daohang:active {
-    background-color: red;
+    background-color: #cb6f03;
+    color: white;
 }
 
 .daohang1:link,
@@ -181,7 +242,7 @@
 
 .daohang1:hover,
 .daohang1:active {
-    background-color: red;
+    background-color: #cb6f03;
 }
 
 .d li {
@@ -189,16 +250,18 @@
     color: white;
 }
 
-.dingtu{
+.dingtu {
     position: absolute;
     top: 340px;
-
+    display: none;
 }
-#tiqian{
+
+#tiqian {
     position: absolute;
     top: 1050px;
 }
-#tiqiandiv{
+
+#tiqiandiv {
     position: absolute;
     top: 1100px;
     left: 180px;
@@ -207,92 +270,105 @@
     border: 1px solid;
     background-color: #F08503;
 }
-.tiqiantu{
-    position: relative;
-    top: 25px;
 
-}
-.tiqiantu1{
-    position: relative;
+#tiqiantu1 {
+    position: absolute;
     top: 25px;
-    margin-left: 17px;
-
+    left: 0px;
 }
-#biao{
+
+#tiqiantu2 {
+    position: absolute;
+    top: 25px;
+    left: 255px;
+}
+
+#tiqiantu3 {
+    position: absolute;
+    top: 25px;
+    left: 513px;
+}
+
+#tiqiantu4 {
+    position: absolute;
+    top: 25px;
+    left: 769px;
+}
+
+#biao {
     position: absolute;
     top: 1375px;
     left: 185px;
 }
 
-#tushu{
+#tushu {
     position: absolute;
     top: 1375px;
     left: 375px;
 }
-#jinqi_div{
+
+#jinqi_div {
     position: absolute;
     top: 1650px;
     left: 185px;
     width: 1000px;
     height: 400px;
-   /* border: 1px solid;*/
-    
+    /* border: 1px solid;*/
 }
-#temai_span{
+
+#temai_span {
     position: absolute;
     top: 1585px;
     left: 185px;
     font-size: 25px;
-
 }
-#te2{
-        position: relative;
+
+#te2 {
+    position: relative;
     top: 196px;
     left: -405px;
 }
-#te3{
+
+#te3 {
     position: absolute;
     left: 415px;
-
 }
-#te4{
+
+#te4 {
     position: absolute;
     left: 615px;
-   
 }
-#te5{
+
+#te5 {
     position: absolute;
     left: 815px;
-   
 }
-#te6{
+
+#te6 {
     position: absolute;
     top: 194px;
     left: 415px;
-
-   
 }
-#te7{
+
+#te7 {
     position: absolute;
     top: 194px;
     left: 615px;
-   
 }
-#te8{
+
+#te8 {
     position: absolute;
     top: 194px;
     left: 815px;
-   
 }
 
-#xiebao{
+#xiebao {
     position: absolute;
     top: 2050px;
     left: 85px;
     width: 1110px;
     height: 200px;
     /*border: 1px solid;*/
-    
 }
 
 .xiebao2:link,
@@ -308,7 +384,7 @@
     text-decoration: none;
     font-size: 15px;
     /*text-transform: uppercase;*/
-    border:1px solid #01204f;
+    border: 1px solid #e2e2e2;
     /*border-left: none;*/
     /*border-right: none;*/
     padding-bottom: 0px;
@@ -317,7 +393,8 @@
 
 .xiebao2:hover,
 .xiebao2:active {
-    background-color: red;
+    background-color: #F08503;
+    color: white;
 }
 
 .xiebao1:link,
@@ -332,7 +409,7 @@
     /* padding: 11px; */
     text-decoration: none;
     /*text-transform: uppercase;*/
-     border: 1px solid gray; 
+    border: 1px solid #e2e2e2;
     /*border-left: none;
     border-right: none;*/
     padding-bottom: 0px;
@@ -341,14 +418,17 @@
 
 .xiebao1:hover,
 .xiebao1:active {
-    background-color: red;
+    /*background-color: red;*/
+    color: red;
 }
-#shuai{
+
+#shuai {
     position: absolute;
     top: 0px;
     left: 100px;
 }
-#fuzhuang{
+
+#fuzhuang {
     position: absolute;
     top: 2270px;
     left: 185px;
@@ -356,19 +436,89 @@
     height: 655px;
     /*border: 1px solid;*/
 }
-.fu1{
+
+.fu1 {
     position: absolute;
     top: 0px;
     left: 0px;
 }
- .fuzhuang_div{
-   position: absolute;
+
+.fu1_div {
+    position: absolute;
+    top: 285px;
+    width: 382px;
+    height: 108px;
+    /* border: 1px solid black;*/
+    z-index: 1;
+    background-color: #e6d8dd;
+    opacity: 0.8;
+}
+
+.fu1div1 {
+    position: absolute;
+    top: 32px;
+    left: 34px;
+    text-decoration: none;
+    color: #F08503;
+    font-size: 14px;
+}
+
+.fu1div2 {
+    position: absolute;
+    top: 68px;
+    left: 34px;
+    text-decoration: none;
+    color: #F08503;
+    font-size: 14px;
+}
+
+.fu1div3 {
+    position: absolute;
+    top: 32px;
+    left: 159px;
+    text-decoration: none;
+    color: #F08503;
+    font-size: 14px;
+}
+
+.fu1div4 {
+    position: absolute;
+    top: 68px;
+    left: 159px;
+    text-decoration: none;
+    color: #F08503;
+    font-size: 14px;
+}
+
+.fu1div5 {
+    position: absolute;
+    top: 32px;
+    left: 283px;
+    text-decoration: none;
+    color: #F08503;
+    font-size: 14px;
+}
+
+.fu1div6 {
+    position: absolute;
+    top: 68px;
+    left: 283px;
+    text-decoration: none;
+    color: #F08503;
+    font-size: 14px;
+}
+
+.fu1_div a:hover {
+    color: red;
+}
+
+.fuzhuang_div {
+    position: absolute;
     top: 15px;
     left: 403px;
     width: 595px;
     height: 40px;
     /*border: 1px solid;*/
-    
 }
 
 .fuzhuang2:link,
@@ -384,7 +534,7 @@
     text-decoration: none;
     font-size: 15px;
     /*text-transform: uppercase;*/
-    border:1px solid #f2f2f2;
+    border: 1px solid #f2f2f2;
     /*border-left: none;*/
     /*border-right: none;*/
     border-bottom-color: #F08503;
@@ -395,7 +545,7 @@
 
 .fuzhuang2:hover,
 .fuzhuang2:active {
-    background-color: red;
+    background-color: #eeeeee;
 }
 
 .fuzhuang1:link,
@@ -404,13 +554,13 @@
     width: 65px;
     height: 25px;
     /*font-weight: bold;*/
-    color:#F08503 ;
+    color: #F08503;
     background-color: white;
     text-align: center;
     /* padding: 11px; */
     text-decoration: none;
     /*text-transform: uppercase;*/
-     border: 1px solid #f2f2f2; 
+    border: 1px solid #f2f2f2;
     /*border-left: none;
     border-right: none;*/
     border-top: 1px solid #F08503;
@@ -422,27 +572,28 @@
 
 .fuzhuang1:hover,
 .fuzhuang1:active {
-    background-color: red;
+    background-color: #eeeeee;
 }
 
 .fuzhuang_div li {
     float: left;
     color: white;
-
 }
-.fu2{
+
+.fu2 {
     position: absolute;
     top: 75px;
-
 }
-.wenzi{
+
+.wenzi {
     position: absolute;
     top: 393px;
     width: 378px;
     height: 120px;
     border: 1px solid #e2e2e2;
 }
-.zuo1{
+
+.zuo1 {
     position: absolute;
     top: 10px;
     left: 25px;
@@ -451,26 +602,27 @@
     /*border: 1px solid;*/
 }
 
-.juli{
-
+.juli {
     position: relative;
     margin: 5px;
-
 }
-.juli a{
+
+.juli a {
     text-decoration: none;
     color: black;
 }
 
-.zuo2{
+.zuo2 {
     position: absolute;
     top: 10px;
     left: 105px;
     width: 75px;
     height: 100px;
     /*border: 1px solid;
-*/}
-.zuo3{
+*/
+}
+
+.zuo3 {
     position: absolute;
     top: 10px;
     left: 220px;
@@ -478,7 +630,8 @@
     height: 100px;
     b/*order: 1px solid;*/
 }
-.zuo4{
+
+.zuo4 {
     position: absolute;
     top: 10px;
     left: 300px;
@@ -487,58 +640,62 @@
     /*border: 1px solid;*/
 }
 
-.fu3{
+.fu3 {
     position: absolute;
     top: 510px;
     border: 1px solid #e2e2e2;
-
 }
-.fu4{
-        position: absolute;
+
+.fu4 {
+    position: absolute;
     left: 400px;
     top: 75px;
     border: 1px solid #e2e2e2;
-
 }
-.fu5{
-        position: absolute;
+
+.fu5 {
+    position: absolute;
     left: 400px;
     top: 365px;
     border: 1px solid #e2e2e2;
-
 }
-.fu6{
-        position: absolute;
+
+.fu6 {
+    position: absolute;
     left: 400px;
     top: 510px;
     border: 1px solid #e2e2e2;
-
 }
-.fu7{
+
+.fu7 {
     position: absolute;
     left: 800px;
     top: 75px;
     border: 1px solid #e2e2e2;
 }
-.fu8{
+
+.fu8 {
     position: absolute;
     left: 801px;
     top: 365px;
     border: 1px solid #e2e2e2;
 }
-.fu9{
+
+.fu9 {
     position: absolute;
     left: 600px;
     top: 510px;
     border: 1px solid #e2e2e2;
 }
-.fu10{
+
+.fu10 {
     position: absolute;
     left: 597px;
     top: 365px;
     border: 1px solid #e2e2e2;
 }
-#shouji{
+
+#shouji {
     position: absolute;
     top: 2970px;
     left: 185px;
@@ -546,7 +703,8 @@
     height: 655px;
     /*border: 1px solid;*/
 }
-#shipin{
+
+#shipin {
     position: absolute;
     top: 3670px;
     left: 185px;
@@ -554,7 +712,8 @@
     height: 655px;
     /*border: 1px solid;*/
 }
-#jiayong{
+
+#jiayong {
     position: absolute;
     top: 4370px;
     left: 185px;
@@ -563,7 +722,7 @@
     /*border: 1px solid;*/
 }
 
-#shenghuo{
+#shenghuo {
     position: absolute;
     top: 5070px;
     left: 185px;
@@ -585,7 +744,7 @@
     text-decoration: none;
     font-size: 15px;
     /*text-transform: uppercase;*/
-    border:1px solid #f2f2f2;
+    border: 1px solid #f2f2f2;
     /*border-left: none;*/
     /*border-right: none;*/
     border-bottom-color: #cfc329;
@@ -597,7 +756,7 @@
 
 .shouji2:hover,
 .shouji2:active {
-    background-color: red;
+    background-color: #eeeeee;
 }
 
 .shouji1:link,
@@ -613,7 +772,7 @@
     /* padding: 11px; */
     text-decoration: none;
     /*text-transform: uppercase;*/
-     border: 1px solid #f2f2f2; 
+    border: 1px solid #f2f2f2;
     /*border-left: none;
     border-right: none;*/
     border-top: 1px solid #cfc329;
@@ -626,22 +785,22 @@
 
 .shouji1:hover,
 .shouji1:active {
-    background-color: red;
+    background-color: #eeeeee;
 }
-.shouji_div{
-   position: absolute;
+
+.shouji_div {
+    position: absolute;
     top: 15px;
     left: 550px;
     width: 595px;
     height: 40px;
     /*border: 1px solid;*/
-    
 }
+
 .shouji_div li {
     float: left;
     color: white;
     font-size: 10px;
-
 }
 
 .shipin2:link,
@@ -657,7 +816,7 @@
     text-decoration: none;
     font-size: 15px;
     /*text-transform: uppercase;*/
-    border:1px solid #f2f2f2;
+    border: 1px solid #f2f2f2;
     /*border-left: none;*/
     /*border-right: none;*/
     border-bottom-color: #cfc329;
@@ -669,7 +828,7 @@
 
 .shipin2:hover,
 .shipin2:active {
-    background-color: red;
+    background-color: #eeeeee;
 }
 
 .shipin1:link,
@@ -685,7 +844,7 @@
     /* padding: 11px; */
     text-decoration: none;
     /*text-transform: uppercase;*/
-     border: 1px solid #f2f2f2; 
+    border: 1px solid #f2f2f2;
     /*border-left: none;
     border-right: none;*/
     border-top: 1px solid red;
@@ -698,22 +857,22 @@
 
 .shipin1:hover,
 .shipin1:active {
-    background-color: red;
+    background-color: #eeeeee;
 }
-.shipin_div{
-   position: absolute;
+
+.shipin_div {
+    position: absolute;
     top: 15px;
     left: 550px;
     width: 595px;
     height: 40px;
     /*border: 1px solid;*/
-    
 }
+
 .shipin_div li {
     float: left;
     color: white;
     font-size: 10px;
-
 }
 
 .jiayong2:link,
@@ -729,7 +888,7 @@
     text-decoration: none;
     font-size: 15px;
     /*text-transform: uppercase;*/
-    border:1px solid #f2f2f2;
+    border: 1px solid #f2f2f2;
     /*border-left: none;*/
     /*border-right: none;*/
     border-bottom-color: #35bbc7;
@@ -741,7 +900,7 @@
 
 .jiayong2:hover,
 .jiayong2:active {
-    background-color: red;
+    background-color: #eeeeee;
 }
 
 .jiayong1:link,
@@ -750,13 +909,13 @@
     width: 85px;
     height: 25px;
     /*font-weight: bold;*/
-    color:#F08503 ;
+    color: #F08503;
     background-color: white;
     text-align: center;
     /* padding: 11px; */
     text-decoration: none;
     /*text-transform: uppercase;*/
-     border: 1px solid #f2f2f2; 
+    border: 1px solid #f2f2f2;
     /*border-left: none;
     border-right: none;*/
     border-top: 1px solid #35bbc7;
@@ -769,22 +928,22 @@
 
 .jiayong1:hover,
 .jiayong1:active {
-    background-color: red;
+    background-color: #eeeeee;
 }
-.jiayong_div{
-   position: absolute;
+
+.jiayong_div {
+    position: absolute;
     top: 15px;
     left: 550px;
     width: 595px;
     height: 40px;
     /*border: 1px solid;*/
-    
 }
+
 .jiayong_div li {
     float: left;
     color: white;
     font-size: 10px;
-
 }
 
 .shenghuo2:link,
@@ -800,7 +959,7 @@
     text-decoration: none;
     font-size: 15px;
     /*text-transform: uppercase;*/
-    border:1px solid #f2f2f2;
+    border: 1px solid #f2f2f2;
     /*border-left: none;*/
     /*border-right: none;*/
     border-bottom-color: #35bbc7;
@@ -812,7 +971,7 @@
 
 .shenghuo2:hover,
 .shenghuo2:active {
-    background-color: red;
+    background-color: #eeeeee;
 }
 
 .shenghuo1:link,
@@ -821,13 +980,13 @@
     width: 85px;
     height: 25px;
     /*font-weight: bold;*/
-    color:#F08503 ;
+    color: #F08503;
     background-color: white;
     text-align: center;
     /* padding: 11px; */
     text-decoration: none;
     /*text-transform: uppercase;*/
-     border: 1px solid #f2f2f2; 
+    border: 1px solid #f2f2f2;
     /*border-left: none;
     border-right: none;*/
     border-top: 1px solid #6d3892;
@@ -840,187 +999,314 @@
 
 .shenghuo1:hover,
 .shenghuo1:active {
-    background-color: red;
+    background-color: #eeeeee;
 }
-.shenghuo_div{
-   position: absolute;
+
+.shenghuo_div {
+    position: absolute;
     top: 15px;
     left: 550px;
     width: 595px;
     height: 40px;
     /*border: 1px solid;*/
-    
 }
+
 .shenghuo_div li {
     float: left;
     color: white;
     font-size: 10px;
-
 }
-#heng{
+
+#heng {
     position: absolute;
-top: 5800px;
-
+    top: 5800px;
 }
-#dida{
+
+#dida {
     position: absolute;
-top: 5900px;
-/*border: 1px solid;*/
-height: 500px;
-width: 100%;
+    top: 5900px;
+    /*border: 1px solid;*/
+    height: 500px;
+    width: 100%;
 }
 
-#zuo1{
+#zuo1 {
     position: relative;
-margin-top: 30px;
-margin-left: 180px;
-/*border: 1px solid;*/
-height: 210px;
-width: 150px;
+    margin-top: 30px;
+    margin-left: 180px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
 }
 
-#zuo2{
+#zuo2 {
     position: relative;
-margin-top: -210px;
-margin-left: 350px;
-/*border: 1px solid;*/
-height: 210px;
-width: 150px;
+    margin-top: -210px;
+    margin-left: 350px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
 }
 
-#zuo3{
+#zuo3 {
     position: relative;
-margin-top: -210px;
-margin-left: 520px;
-/*border: 1px solid;*/
-height: 210px;
-width: 150px;
+    margin-top: -210px;
+    margin-left: 520px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
 }
 
-#zuo4{
+#zuo4 {
     position: relative;
-margin-top: -210px;
-margin-left: 690px;
-/*border: 1px solid;*/
-height: 210px;
-width: 150px;
+    margin-top: -210px;
+    margin-left: 690px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
 }
 
-#zuo5{
+#zuo5 {
     position: relative;
-margin-top: -210px;
-margin-left: 860px;
-/*border: 1px solid;*/
-height: 210px;
-width: 150px;
+    margin-top: -210px;
+    margin-left: 860px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
 }
 
-#zuo6{
+#zuo6 {
     position: relative;
-margin-top: -210px;
-margin-left: 1030px;
-/*border: 1px solid;*/
-height: 210px;
-width: 240px;
+    margin-top: -210px;
+    margin-left: 1030px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 240px;
 }
-#zuo1 a{
 
+#zuo1 a {
     text-decoration: none;
     font-family: 黑体;
     font-size: 15px;
     color: black;
-
 }
-#zuo2 a{
 
+#zuo2 a {
     text-decoration: none;
     font-family: 黑体;
     font-size: 15px;
     color: black;
-
 }
-#zuo3 a{
 
+#zuo3 a {
     text-decoration: none;
     font-family: 黑体;
     font-size: 15px;
     color: black;
-
 }
-#zuo4 a{
 
+#zuo4 a {
     text-decoration: none;
     font-family: 黑体;
     font-size: 15px;
     color: black;
-
 }
-#zuo5 a{
 
+#zuo5 a {
     text-decoration: none;
     font-family: 黑体;
     font-size: 15px;
     color: black;
-
 }
-#zuo6 a{
 
+#zuo6 a {
     text-decoration: none;
     font-family: 黑体;
     font-size: 15px;
     color: black;
-
 }
-.shang{
+
+.shang {
     position: relative;
     margin-bottom: 15px;
 }
-.shang1{
+
+.shang1 {
     position: relative;
     margin-bottom: 10px;
 }
-.shang2{
+
+.shang2 {
     position: relative;
     margin-top: -15px;
 }
-.shang3{
+
+.shang3 {
     position: relative;
     margin-top: -5px;
 }
-#dibu{
+
+#dibu {
     position: relative;
-margin-top: 30px;
-margin-left: 175px;
-/*border: 1px solid;*/
-height: 210px;
-width: 80%;
-text-align: center;
-font-family: 黑体;
-font-size: 15px;
+    margin-top: 30px;
+    margin-left: 175px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 80%;
+    text-align: center;
+    font-family: 黑体;
+    font-size: 15px;
 }
 
-#dibu a{
+#dibu a {
     text-decoration: none;
     color: black;
 }
-#dibu a:hover{
+
+#dibu a:hover {
     color: blue;
 }
-#dida a:hover{
+
+#dida a:hover {
     color: blue;
 }
-#b li{
+
+#b li {
     list-style: none;
     float: left;
     margin-left: 20px;
 }
-#b{
+
+#b {
     position: absolute;
     left: 300px;
     top: 6325px;
 }
 
+#tiqiandiv img:hover {
+    border: 1px red solid;
+}
 
+#biaotushu img:hover {
+    border: 1px red solid;
+}
 
+#jinqi_div img:hover {
+    border: 1px red solid;
+}
 
+.fu3:hover {
+    border: 1px red solid;
+}
 
+.fu4:hover {
+    border: 1px red solid;
+}
+
+.fu5:hover {
+    border: 1px red solid;
+}
+
+.fu6:hover {
+    border: 1px red solid;
+}
+
+.fu7:hover {
+    border: 1px red solid;
+}
+
+.fu8:hover {
+    border: 1px red solid;
+}
+
+.fu9:hover {
+    border: 1px red solid;
+}
+
+.fu10:hover {
+    border: 1px red solid;
+}
+
+.shou_div {
+    position: absolute;
+    top: 337px;
+    width: 382px;
+    height: 56px;
+    /* border: 1px solid black;*/
+    z-index: 1;
+    background-color: #e6d8dd;
+    opacity: 0.8
+}
+
+.shoudiv1 {
+    position: absolute;
+    top: 21px;
+    left: 37px;
+    text-decoration: none;
+    color: #5d2beb;
+    font-size: 14px;
+}
+
+.shoudiv3 {
+    position: absolute;
+    top: 21px;
+    left: 172px;
+    text-decoration: none;
+    color: #5d2beb;
+    font-size: 14px;
+}
+
+.shoudiv5 {
+    position: absolute;
+    top: 21px;
+    left: 302px;
+    text-decoration: none;
+    color: #5d2beb;
+    font-size: 14px;
+}
+
+.shou_div a:hover {
+    color: red;
+}
+
+.shoudiv11 {
+    position: absolute;
+    top: 21px;
+    left: 37px;
+    text-decoration: none;
+    color: red;
+    font-size: 14px;
+}
+
+.shoudiv33 {
+    position: absolute;
+    top: 21px;
+    left: 168px;
+    text-decoration: none;
+    color: red;
+    font-size: 14px;
+}
+
+.shoudiv55 {
+    position: absolute;
+    top: 21px;
+    left: 298px;
+    text-decoration: none;
+    color: red;
+    font-size: 14px;
+}
+
+.shou_div1 {
+    position: absolute;
+    top: 337px;
+    width: 382px;
+    height: 56px;
+    /*border: 1px solid black;*/
+    z-index: 1;
+    background-color: #e6d8dd;
+    opacity: 0.8
+}
+
+.shou_div1 a:hover {
+    color: blue;
+}
