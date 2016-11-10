@@ -16,38 +16,38 @@ inp1.onblur = function() {
 var img1 = document.getElementById("img1");
 img1.onmouseover = function() {
 
-    img1.src = "1.jpg";
+    img1.src = "../img/1.jpg";
 }
 img1.onmouseout = function() {
 
-    img1.src = "5.jpg";
+    img1.src = "../img/5.jpg";
 }
 var img2 = document.getElementById("img2");
 img2.onmouseover = function() {
 
-    img2.src = "2.jpg";
+    img2.src = "../img/2.jpg";
 }
 img2.onmouseout = function() {
 
-    img2.src = "6.jpg";
+    img2.src = "../img/6.jpg";
 }
 var img3 = document.getElementById("img3");
 img3.onmouseover = function() {
 
-    img3.src = "3.jpg";
+    img3.src = "../img/3.jpg";
 }
 img3.onmouseout = function() {
 
-    img3.src = "7.jpg";
+    img3.src = "../img/7.jpg";
 }
 var img4 = document.getElementById("img4");
 img4.onmouseover = function() {
 
-    img4.src = "4.jpg";
+    img4.src = "../img/4.jpg";
 }
 img4.onmouseout = function() {
 
-    img4.src = "8.jpg";
+    img4.src = "../img/8.jpg";
 }
 
 var er = document.getElementById("er");
