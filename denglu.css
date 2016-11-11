@@ -1,0 +1,325 @@
+#legouwu {
+    position: absolute;
+    top: 50px;
+    left: 150px;
+}
+
+#denglu {
+    position: absolute;
+    top: 85px;
+    left: 258px;
+    font-family: 黑体;
+    font-size: 20px;
+}
+
+#denglutu {
+    position: absolute;
+    top: 200px;
+}
+
+#heng {
+    position: absolute;
+    top: 900px;
+}
+
+#dida {
+    position: absolute;
+    top: 1000px;
+    /*border: 1px solid;*/
+    height: 500px;
+    width: 100%;
+}
+
+#zuo1 {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 180px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
+}
+
+#zuo2 {
+    position: relative;
+    margin-top: -210px;
+    margin-left: 350px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
+}
+
+#zuo3 {
+    position: relative;
+    margin-top: -210px;
+    margin-left: 520px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
+}
+
+#zuo4 {
+    position: relative;
+    margin-top: -210px;
+    margin-left: 690px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
+}
+
+#zuo5 {
+    position: relative;
+    margin-top: -210px;
+    margin-left: 860px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 150px;
+}
+
+#zuo6 {
+    position: relative;
+    margin-top: -210px;
+    margin-left: 1030px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 240px;
+}
+
+#zuo1 a {
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+}
+
+#zuo2 a {
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+}
+
+#zuo3 a {
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+}
+
+#zuo4 a {
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+}
+
+#zuo5 a {
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+}
+
+#zuo6 a {
+    text-decoration: none;
+    font-family: 黑体;
+    font-size: 15px;
+    color: black;
+}
+
+.shang {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.shang1 {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.shang2 {
+    position: relative;
+    margin-top: -15px;
+}
+
+.shang3 {
+    position: relative;
+    margin-top: -5px;
+}
+
+#dibu {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 175px;
+    /*border: 1px solid;*/
+    height: 210px;
+    width: 80%;
+    text-align: center;
+    font-family: 黑体;
+    font-size: 15px;
+}
+
+#dibu a {
+    text-decoration: none;
+    color: black;
+}
+
+#dibu a:hover {
+    color: #F08503;
+}
+
+#dida a:hover {
+    color: #F08503;
+}
+
+#b li {
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+}
+
+#b {
+    position: absolute;
+    left: 300px;
+    top: 450px;
+}
+
+#denglukuang {
+    position: absolute;
+    top: 350px;
+    left: 850px;
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    display: block;
+}
+
+#app {
+    position: absolute;
+    top: 50px;
+    left: 88px;
+    color: gray;
+    font-size: 15px;
+}
+
+#app a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#erwei {
+    position: absolute;
+    top: 100px;
+    left: 95px;
+}
+
+#shua {
+    position: absolute;
+    top: 275px;
+    left: 140px;
+    color: gray;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#er2 {
+    position: absolute;
+    top: 285px;
+    left: 284px;
+}
+
+#denglukuang2 {
+    position: absolute;
+    top: 350px;
+    left: 850px;
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    display: none;
+}
+
+#huiyuan {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-family: 黑体;
+    font-size: 20px;
+}
+
+#xinyonghu {
+    position: absolute;
+    top: 22px;
+    left: 225px;
+    font-family: 黑体;
+    font-size: 15px;
+    color: blue;
+}
+
+#input {
+    position: absolute;
+    top: 54px;
+    left: 34px;
+    width: 280px;
+    height: 39px;
+    border: 1px solid #ffab00;
+    font-size: 15px;
+}
+
+#input2 {
+    position: absolute;
+    top: 120px;
+    left: 34px;
+    width: 280px;
+    height: 39px;
+    border: 1px solid gray;
+    font-size: 15px;
+}
+
+#btn_denglu {
+    position: absolute;
+    left: 34px;
+    top: 180px;
+    width: 284px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-family: 黑体;
+    opacity: 1;
+    border: none;
+    cursor: pointer;
+}
+
+#wangji {
+    position: absolute;
+    left: 243px;
+    top: 225px;
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+img {
+    cursor: pointer;
+}
+
+#wuxu {
+    position: absolute;
+    left: 35px;
+    top: 250px;
+    font-size: 15px;
+    font-family: 黑体;
+}
+
+#fangshi {
+    position: absolute;
+    top: 270px;
+    left: 35px;
+    width: 135px;
+    height: 23px;
+    /*border: 1px solid;*/
+}
+
+#er {
+    position: absolute;
+    top: 278px;
+    left: 284px;
+}
