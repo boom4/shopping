@@ -98,3 +98,20 @@ function action_reg(tel, name, pwd, callback) {
     }
   });
 }
+router.post('/search', function (req, res) {
+  res.contentType('json');
+
+  var params = {
+    ipt_search: req.body.ipt_search
+  };
+  console.log(params);
+  var sqlCmd;
+  sqlCmd = 'SELECT * from shangpin where name="' + params.ipt_search + '"';
+  connection.query(sqlCmd, function (error, rows, fields){
+    console.log(rows);
+
+    params.list=rows;
+    res.send(JSON.stringify(params));//给客户端返回一个json格式的数据
+    res.end();
+  })
+});
